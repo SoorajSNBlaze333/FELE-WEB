@@ -19,9 +19,9 @@ const renderProfileCards = () => {
 
 const Team = () => {
     return (    
-        <div className='p-8 w-full'>
+        <div className='p-10 w-full'>
             <div className="text-3xl font-semibold text-green-900 mb-8">Meet Our Team</div>
-            <div className="grid grid-cols-3 grid-rows-2 gap-8"> 
+            <div className="grid grid-cols-3 grid-rows-2 gap-4"> 
                 {renderProfileCards()}      
             </div>
         </div>

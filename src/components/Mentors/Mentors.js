@@ -4,7 +4,7 @@ import { EnvelopeSimple } from 'phosphor-react';
 
 export default function Mentors() {
   return (
-    <div className='body-height p-8'>
+    <div className='body-height p-10'>
       <div className="text-3xl font-semibold text-green-900 mb-16">Meet Our Mentors</div>
       <div className='grid grid-cols-2 grid-rows-1 gap-8'>
         <div className='col-span-1 flex justify-center items-center flex-col'>

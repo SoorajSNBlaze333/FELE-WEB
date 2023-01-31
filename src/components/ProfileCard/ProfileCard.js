@@ -1,8 +1,8 @@
 import { LinkedinLogo } from "phosphor-react";
-import Assets from "../../assets/Assets";
+// import Assets from "../../assets/Assets";
 
 const ProfileCard = ({profileImage, displayName, email, linkedIn, imgClass}) => {
-    const image = Assets[`${profileImage}`] || Assets.defaultImage
+    // const image = Assets[`${profileImage}`] || Assets.defaultImage
     return (
         <div className="p-6 rounded-lg flex flex-col bg-white justify-between items-center">
             <div className='h-[200px] w-[200px] bg-slate-200 mb-1 rounded-full overflow-hidden'>
