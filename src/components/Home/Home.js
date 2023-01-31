@@ -1,10 +1,12 @@
-import './Home.css'
+import Landing from '../../assets/landing-bg.png';
 
 const Home = () => {
   return (
-    <div className='body-height'>
-      <div className='h-full w-full grid grid-cols-4 grid-rows-1 gap-4 p-10'>
-        <img className='col-span-2' src="https://www.citypng.com/public/uploads/small/51614557777dpetxlu4tamyymayuq2d41yxi35na8jqhsvpyox41hkb6ra3mashujlljqmzzk0ugqdz5tbukkdxt5pkzshu0hb9puvnhyqaduso.png" alt="Blockchain Network" />
+    <div className='body-height p-10'>
+      <div className='grid grid-cols-1 md:grid-rows-1 md:grid-cols-4 gap-4'>
+        <div className='col-span-2 h-full flex flex-col justify-center items-center'>
+          <img className='' src={Landing} alt="Blockchain Network" />
+        </div>
         <div className="col-span-2">
           <p className='text-5xl font-bold'>Fabric Experimentation and Learning Environment</p>
           <p className="text-md text-slate-600 mt-4 leading-loose">

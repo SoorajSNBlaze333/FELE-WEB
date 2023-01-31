@@ -12,7 +12,7 @@ const ProfileCard = ({profileImage, displayName, email, linkedIn, imgClass}) => 
                 <div className="flex justify-between items-center">
                     <p className="m-0 text-xl font-semibold">{displayName}</p>
                     <a href={linkedIn} target="_blank" rel="noreferrer" className="cursor-pointer">
-                        <LinkedinLogo size={24} className="text-blue-400"/>
+                        <LinkedinLogo size={24} className="text-blue-400" weight="fill" />
                     </a>
                 </div>
                 <p className="m-0 text-gray-600">{email}</p>

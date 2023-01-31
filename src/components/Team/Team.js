@@ -19,8 +19,8 @@ const renderProfileCards = () => {
 
 const Team = () => {
     return (    
-        <div className='p-10 w-full'>
-            <div className="text-3xl font-semibold text-green-900 mb-8">Meet Our Team</div>
+        <div className='p-10 body-height'>
+            <div className="text-4xl font-semibold text-green-900 w-full text-center">Meet Our Team</div>
             <div className="grid grid-cols-3 grid-rows-2 gap-4"> 
                 {renderProfileCards()}      
             </div>
