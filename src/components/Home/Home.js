@@ -1,12 +1,10 @@
-import Landing from '../../assets/landing-bg.png';
+import Landing from '../../assets/landing-new-bg.png';
 
 const Home = () => {
   return (
     <div className='body-height p-10'>
       <div className='grid grid-cols-1 md:grid-rows-1 md:grid-cols-4 gap-4'>
-        <div className='col-span-2 h-full flex flex-col justify-center items-center'>
-          <img className='' src={Landing} alt="Blockchain Network" />
-        </div>
+        <img className='col-span-2 h-[95%] w-[95%]' src={Landing} alt="Blockchain Network" />
         <div className="col-span-2">
           <p className='text-5xl font-bold'>Fabric Experimentation and Learning Environment</p>
           <p className="text-md text-slate-600 mt-4 leading-loose">
