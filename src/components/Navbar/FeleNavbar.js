@@ -1,4 +1,3 @@
-import './FeleNavbar.css';
 import { NavLink } from 'react-router-dom';
 
 const NAVLINKS_ACTIVE_CLASSNAME = "cursor-pointer p-2 text-center rounded-md transition duration-100 min-w-[150px] bg-green-100 text-green-900"

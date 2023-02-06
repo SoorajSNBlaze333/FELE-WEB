@@ -4,6 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+
 import FeleNavbar from './components/Navbar/FeleNavbar';
 import Team from './components/Team/Team';
 import Home from './components/Home/Home'

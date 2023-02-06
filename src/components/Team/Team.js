@@ -1,10 +1,9 @@
-import './Team.css'
 import ProfileCard from '../ProfileCard/ProfileCard';
-import MemberInfo from '../../Defaults';
+import { teamMembers } from '../../config/constants';
 
 const renderProfileCards = () => {
     return (
-        Object.entries(MemberInfo).map(([key, member]) => {
+        teamMembers.map((member, key) => {
             return <ProfileCard 
                 profileImage= {member.image}
                 displayName= {member.displayName}
@@ -12,6 +11,7 @@ const renderProfileCards = () => {
                 email={member.email}
                 linkedIn={member.linkedIn}
                 imgClass={member.classname}
+                background={member.background}
             />
         })
     ) 
