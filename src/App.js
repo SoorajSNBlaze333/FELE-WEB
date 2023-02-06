@@ -1,4 +1,3 @@
-import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +14,7 @@ import Deliverables from './components/Deliverables/Deliverables';
 import References from './components/References/References';
 import Footer from './components/Footer/Footer';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <FeleNavbar />
