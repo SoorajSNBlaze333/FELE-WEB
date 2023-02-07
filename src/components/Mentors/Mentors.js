@@ -8,7 +8,7 @@ export default function Mentors() {
       <div className="text-4xl font-semibold text-green-900 mb-16 w-full text-center">Meet Our Mentors</div>
       <div className='grid grid-cols-2 grid-rows-1 gap-8'>
         <div className='col-span-1 flex justify-center items-center flex-col'>
-          <div className='h-[300px] w-[300px] bg-amber-200 mb-4 rounded-full overflow-hidden'>
+          <div className='h-[300px] w-[300px] bg-amber-200 ring-offset-2 ring-2 ring-amber-200 mb-4 rounded-full overflow-hidden'>
             <img className='w-[85%] ml-10 mt-4' src={BunYue} alt="f"/>
           </div>
           <p className="m-0 mb-2 text-2xl font-semibold">Dr. Kwok-Bun Yue</p>
@@ -20,7 +20,7 @@ export default function Mentors() {
           </div>
         </div>
         <div className='col-span-1 flex justify-center items-center flex-col'>
-          <div className='h-[300px] w-[300px] bg-emerald-200 mb-4 rounded-full overflow-hidden'>
+          <div className='h-[300px] w-[300px] bg-emerald-200 ring-offset-2 ring-2 ring-emerald-200 mb-4 rounded-full overflow-hidden'>
             <img className='w-[90%] ml-5 mt-4' src={KeweiSha} alt="f"/>
           </div>
           <p className="m-0 mb-2 text-2xl font-semibold">Dr. Kewei Sha</p>

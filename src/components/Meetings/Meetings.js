@@ -2,7 +2,7 @@ import { minutesOfMeeting } from "../../config/constants"
 
 export default function Meetings() {
   const renderMOM = (mom, index) => {
-    return (<a href={mom.filePath} aria-disabled={mom.disabled} className="w-full rounded-md p-3 cursor-pointer transition duration-200 hover:bg-green-50 hover:text-green-900 flex justify-center items-center select-none" key={index}>
+    return (<a href={mom.filePath} className="w-full rounded-md p-3 cursor-pointer transition duration-200 hover:bg-green-50 hover:text-green-900 flex justify-center items-center select-none" key={index}>
       <div className="mx-2">{mom.date}</div>
       <div className="">{mom.time}</div>
     </a>)

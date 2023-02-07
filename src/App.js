@@ -13,6 +13,7 @@ import Reports from './components/Reports/Reports';
 import Deliverables from './components/Deliverables/Deliverables';
 import References from './components/References/References';
 import Footer from './components/Footer/Footer';
+import NotFound from "./components/Misc/NotFound";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
         <Route path="/deliverables" element={<Deliverables />} />
         <Route path="/reports" element={<Reports />}/>
         <Route path="/references" element={<References />}/>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

@@ -8,14 +8,14 @@ export const teamMembers = [{
 }, {
     image: "sesha",
     linkedIn: "https://www.linkedin.com/in/sesha-kumar-400ab1120/",
-    email: "nallamillis@uhcl.edu",
+    email: "nallamillis8471@uhcl.edu",
     displayName: "Sesha Kumar Reddy",
     classname: "w-[100%] mt-2",
     background: 'bg-pink-200 ring-offset-2 ring-2 ring-pink-200'
 }, {
     image: "shiva",
     linkedIn: "https://www.linkedin.com/in/shiva-phaneendra-reddy-m-108062103/",
-    email: "shivareddy@uhcl.edu",
+    email: "medapatis8525@uhcl.edu",
     displayName: "Shiva Phaneendra Reddy",
     classname: "w-[100%]",
     background: 'bg-cyan-200 ring-offset-2 ring-2 ring-cyan-200'
@@ -45,3 +45,7 @@ export const teamMembers = [{
 export const minutesOfMeeting = [{ 
   date: '01/31/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meeting-01-31-2023.pdf` 
 }];
+
+export const reports = [
+  { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/report-02-02-2023.pdf` },
+]
