@@ -48,4 +48,20 @@ export const minutesOfMeeting = [{
 
 export const reports = [
   { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/report-02-02-2023.pdf` },
-]
+];
+
+export const mentors = [{
+    displayName: "Dr. Kwok-Bun Yue",
+    description: ["Professor of Computer Science and Computer Information Systems,", "College of Science and Engineering"],
+    office: "Delta 163",
+    email: "yue@uhcl.edu",
+    image: "yue",
+    background: "bg-amber-200 ring-amber-200"
+}, {
+    displayName: "Dr. Kewei Sha",
+    description: ["Associate Professor of Computer Science,", "College of Science and Engineering"],
+    office: "Delta 148",
+    email: "sha@uhcl.edu",
+    image: "sha",
+    background: "bg-emerald-200 ring-emerald-200"
+}]

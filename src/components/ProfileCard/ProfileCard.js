@@ -9,7 +9,7 @@ const ProfileCard = ({
     imgClass,
     background
 }) => {
-    const image = images[`${profileImage}`] || 'https://i.pravatar.cc/500';
+    const image = images[`${profileImage}`];
 
     return (
         <div className="p-6 rounded-lg flex flex-col bg-white justify-between items-center">

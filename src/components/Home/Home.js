@@ -4,9 +4,8 @@ const Home = () => {
   return (
     <div className='body-height p-10'>
       <div className='grid grid-cols-1 md:grid-rows-1 md:grid-cols-4 gap-8'>
-        {/* <img className='col-span-2 h-[95%] w-[95%]' src="" alt="Blockchain Network" /> */}
         <div className="col-span-2 p-10">
-          <div className="bg-green-100 border-2 border-green-200 h-full w-full flex flex-col justify-center items-center rounded-xl">
+          <div className="h-full w-full flex flex-col justify-center items-center rounded-xl">
             <p className="text-6xl font-semibold mr-32">Fabric</p>
             <p className="text-6xl font-semibold">Experimentation</p>
             <p>
