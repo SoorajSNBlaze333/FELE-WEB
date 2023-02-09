@@ -65,3 +65,29 @@ export const mentors = [{
     image: "sha",
     background: "bg-emerald-200 ring-emerald-200"
 }]
+
+export const deliverables = [{
+    title: "Project Website",
+    status: "Completed"
+}, {
+    title: "Requirement Analysis",
+    status: "In-Progress"
+}, {
+    title: "Design Document",
+    status: "In-Progress"
+}, {
+    title: "FELE Command Line Interface",
+    status: "In-Progress"
+}, {
+    title: "FELE Restful API services",
+    status: "In-Progress"
+}, {
+    title: "FELE Client UI",
+    status: "Yet to start"
+}, {
+    title: "Final Presentation",
+    status: "Yet to start"
+}, {
+    title: "Final Report",
+    status: "Yet to start"
+}]
