@@ -17,7 +17,7 @@ import NotFound from "./components/Misc/NotFound";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/caps23g31">
       <FeleNavbar />
       <Routes>
         <Route path="/" element={<Home />}/>

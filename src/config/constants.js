@@ -68,26 +68,42 @@ export const mentors = [{
 
 export const deliverables = [{
     title: "Project Website",
-    status: "Completed"
+    status: "Completed",
+    statusClassName: "border-green-400",
+    className: "bg-green-100 text-green-600"
 }, {
     title: "Requirement Analysis",
-    status: "In-Progress"
+    status: "In-Progress",
+    statusClassName: "border-yellow-300",
+    className: "bg-amber-100 text-yellow-600"
 }, {
     title: "Design Document",
-    status: "In-Progress"
+    status: "In-Progress",
+    statusClassName: "border-yellow-300",
+    className: "bg-amber-100 text-yellow-600"
 }, {
     title: "FELE Command Line Interface",
-    status: "In-Progress"
+    status: "In-Progress",
+    statusClassName: "border-yellow-300",
+    className: "bg-amber-100 text-yellow-600"
 }, {
     title: "FELE Restful API services",
-    status: "In-Progress"
+    status: "In-Progress",
+    statusClassName: "border-yellow-300",
+    className: "bg-amber-100 text-yellow-600"
 }, {
     title: "FELE Client UI",
-    status: "Yet to start"
+    status: "Yet to start",
+    statusClassName: "border-blue-300",
+    className: "bg-blue-100 text-blue-500"
 }, {
     title: "Final Presentation",
-    status: "Yet to start"
+    status: "Yet to start",
+    statusClassName: "border-blue-300",
+    className: "bg-blue-100 text-blue-500"
 }, {
     title: "Final Report",
-    status: "Yet to start"
+    status: "Yet to start",
+    statusClassName: "border-blue-300",
+    className: "bg-blue-100 text-blue-500"
 }]
