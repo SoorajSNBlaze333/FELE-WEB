@@ -43,11 +43,13 @@ export const teamMembers = [{
 }];
 
 export const minutesOfMeeting = [{ 
-  date: '01/31/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meeting-01-31-2023.pdf` 
+  date: '01/31/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-01-31-2023.pdf` 
 }];
 
 export const reports = [
-  { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/report-02-02-2023.pdf` },
+  { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-02-2023.pdf` },
+  { date: '02/09/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-09-2023.pdf` },
+  { date: '02/16/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-16-2023.pdf` },
 ];
 
 export const mentors = [{
@@ -66,44 +68,50 @@ export const mentors = [{
     background: "bg-emerald-200 ring-emerald-200"
 }]
 
+const getStatusInfo = (status) => {
+    if (status === "completed") {
+        return {
+            status: "Completed",
+            statusClassName: "border-green-400",
+            className: "bg-green-100 text-green-600"
+        }
+    } else if (status === "inprogress") {
+        return {
+            status: "In-Progress",
+            statusClassName: "border-yellow-300",
+            className: "bg-amber-100 text-yellow-600"
+        }
+    } else {
+        return {
+            status: "Yet to start",
+            statusClassName: "border-blue-300",
+            className: "bg-blue-100 text-blue-500"
+        }
+    }
+}
+
 export const deliverables = [{
     title: "Project Website",
-    status: "Completed",
-    statusClassName: "border-green-400",
-    className: "bg-green-100 text-green-600"
+    ...getStatusInfo("completed")
 }, {
     title: "Requirement Analysis",
-    status: "In-Progress",
-    statusClassName: "border-yellow-300",
-    className: "bg-amber-100 text-yellow-600"
+    ...getStatusInfo("completed")
 }, {
     title: "Design Document",
-    status: "In-Progress",
-    statusClassName: "border-yellow-300",
-    className: "bg-amber-100 text-yellow-600"
+    ...getStatusInfo("completed")
 }, {
     title: "FELE Command Line Interface",
-    status: "In-Progress",
-    statusClassName: "border-yellow-300",
-    className: "bg-amber-100 text-yellow-600"
+    ...getStatusInfo("completed")
 }, {
     title: "FELE Restful API services",
-    status: "In-Progress",
-    statusClassName: "border-yellow-300",
-    className: "bg-amber-100 text-yellow-600"
+    ...getStatusInfo("completed")
 }, {
     title: "FELE Client UI",
-    status: "Yet to start",
-    statusClassName: "border-blue-300",
-    className: "bg-blue-100 text-blue-500"
+    ...getStatusInfo("completed")
 }, {
     title: "Final Presentation",
-    status: "Yet to start",
-    statusClassName: "border-blue-300",
-    className: "bg-blue-100 text-blue-500"
+    ...getStatusInfo("completed")
 }, {
     title: "Final Report",
-    status: "Yet to start",
-    statusClassName: "border-blue-300",
-    className: "bg-blue-100 text-blue-500"
+    ...getStatusInfo("inprogress")
 }]
