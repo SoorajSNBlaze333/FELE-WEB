@@ -47,9 +47,17 @@ export const minutesOfMeeting = [{
 }];
 
 export const reports = [
-  { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-02-2023.pdf` },
-  { date: '02/09/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-09-2023.pdf` },
-  { date: '02/16/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-16-2023.pdf` },
+  { date: 'Week 2 - 02/02/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-02-2023.pdf` },
+  { date: 'Week 3 - 02/09/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-09-2023.pdf` },
+  { date: 'Week 4 - 02/16/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-16-2023.pdf` },
+  { date: 'Week 5 - 02/23/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-23-2023.pdf` },
+  { date: 'Week 6 - 03/02/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-03-02-2023.pdf` },
+  { date: 'Week 7 - 03/09/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-03-09-2023.pdf` },
+  { date: 'Week 8 - 03/15/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-03-15-2023.pdf` },
+  { date: 'Week 9 - 03/29/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-03-29-2023.pdf` },
+  { date: 'Week 10 - 04/06/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-06-2023.pdf` },
+  { date: 'Week 11 - 04/13/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-13-2023.pdf` },
+  { date: 'Week 12 - 04/20/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-20-2023.pdf` },
 ];
 
 export const mentors = [{

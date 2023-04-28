@@ -1,11 +1,12 @@
-// import Landing from '../../assets/landing-bg.png';
+import Landing from '../../assets/landing-bg.png';
 
 const Home = () => {
   return (
     <div className='body-height p-10'>
       <div className='grid grid-cols-1 md:grid-rows-1 md:grid-cols-4 gap-8'>
         <div className="col-span-2 p-10">
-          <div className="h-full w-full flex flex-col justify-center items-center rounded-xl">
+          <img src={Landing} alt="landing" className='border-2 border-slate-100 rounded-xl'/>
+          {/* <div className="h-full w-full flex flex-col justify-center items-center rounded-xl">
             <p className="text-6xl font-semibold mr-32">Fabric</p>
             <p className="text-6xl font-semibold">Experimentation</p>
             <p>
@@ -13,7 +14,7 @@ const Home = () => {
               <span className="ml-1 text-6xl font-semibold">Learning</span>
             </p>
             <p className="mr-24 text-6xl font-semibold">Environment</p>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-2">
           <p className='text-5xl font-bold'>About FELE</p>
