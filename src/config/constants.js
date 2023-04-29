@@ -42,9 +42,19 @@ export const teamMembers = [{
     background: 'bg-blue-300 ring-offset-2 ring-2 ring-blue-200'
 }];
 
-export const minutesOfMeeting = [{ 
-  date: '01/31/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-01-31-2023.pdf` 
-}];
+export const minutesOfMeeting = [
+  { date: '01/31/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-01-31-2023.pdf` },
+  { date: '02/07/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-02-07-2023.pdf` },
+  { date: '02/14/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-02-14-2023.pdf` },
+  { date: '02/21/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-02-21-2023.pdf` },
+  { date: '02/28/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-02-28-2023.pdf` },
+  { date: '03/07/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-03-07-2023.pdf` },
+  { date: '03/21/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-03-21-2023.pdf` },
+  { date: '03/28/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-03-28-2023.pdf` },
+  { date: '04/04/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-04-04-2023.pdf` },
+  { date: '04/11/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-04-11-2023.pdf` },
+  { date: '04/18/2023', time: '9:30 AM to 10:30 AM CST', filePath: `${process.env.PUBLIC_URL}/meetings/meeting-04-18-2023.pdf` }
+];
 
 export const reports = [
   { date: '02/02/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-02-02-2023.pdf` },
@@ -59,8 +69,7 @@ export const reports = [
   { date: '04/13/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-13-2023.pdf` },
   { date: '04/20/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-20-2023.pdf` },
   { date: '04/27/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-04-27-2023.pdf` },
-  { date: '05/04/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-05-04-2023.pdf` },
-  { date: '05/11/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-05-11-2023.pdf` }
+  { date: '05/04/2023', filePath: `${process.env.PUBLIC_URL}/reports/report-05-04-2023.pdf` }
 ];
 
 export const mentors = [{
