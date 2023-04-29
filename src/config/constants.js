@@ -133,5 +133,5 @@ export const deliverables = [{
     ...getStatusInfo("completed")
 }, {
     title: "Final Report",
-    ...getStatusInfo("inprogress")
+    ...getStatusInfo("completed")
 }]
